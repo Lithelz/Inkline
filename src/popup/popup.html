@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Inkline</title>
+    <link rel="stylesheet" href="../shared/theme.css" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <div class="brand">Inkline</div>
+      <span id="total" class="muted"></span>
+    </header>
+
+    <section class="card" id="page">
+      <div class="row">
+        <div class="grow">
+          <div id="page-title" class="title">…</div>
+          <div id="page-sub" class="muted small"></div>
+        </div>
+        <label class="switch" id="site-switch" hidden>
+          <input type="checkbox" id="site-toggle" aria-label="Record on this site" />
+          <span></span>
+        </label>
+        <span class="live" id="docs-live" hidden>Recording</span>
+      </div>
+      <div id="page-stats" class="stats" hidden></div>
+      <details id="diag" hidden>
+        <summary>Status</summary>
+        <pre id="diag-text"></pre>
+      </details>
+    </section>
+
+    <section id="sites-section" hidden>
+      <h2>Recording on</h2>
+      <ul id="sites"></ul>
+    </section>
+
+    <footer>
+      <button class="btn primary" id="open">Open recordings</button>
+      <p class="muted small">Everything stays on this device.</p>
+    </footer>
+
+    <script src="../shared/ops.js"></script>
+    <script src="../shared/timeline.js"></script>
+    <script src="../shared/codec.js"></script>
+    <script src="../shared/store.js"></script>
+    <script src="../shared/format.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

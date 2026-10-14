@@ -1,0 +1,33 @@
+<!doctype html>
+<meta charset="utf-8" />
+<title>Inkline tests</title>
+<style>
+  body { font: 14px/1.6 ui-monospace, Menlo, monospace; padding: 24px; }
+  .ok { color: #2b8a3e; } .fail { color: #c92a2a; white-space: pre-wrap; }
+</style>
+<h3 id="summary">Running…</h3>
+<div id="out"></div>
+<script src="../src/shared/ops.js"></script>
+<script src="../src/shared/diff.js"></script>
+<script src="../src/shared/reconcile.js"></script>
+<script src="../src/shared/timeline.js"></script>
+<script src="../src/shared/codec.js"></script>
+<script src="../src/shared/store.js"></script>
+<script src="harness.js"></script>
+<script src="ops.test.js"></script>
+<script src="timeline.test.js"></script>
+<script src="store.test.js"></script>
+<script src="diff.test.js"></script>
+<script>
+  runTests().then((results) => {
+    const failed = results.filter((r) => !r.ok).length;
+    document.getElementById('summary').textContent = `${results.length - failed}/${results.length} passed`;
+    for (const r of results) {
+      const div = document.createElement('div');
+      div.className = r.ok ? 'ok' : 'fail';
+      div.textContent = `${r.ok ? 'ok   ' : 'FAIL '}${r.name}${r.ok ? '' : `\n    ${r.error}`}`;
+      document.getElementById('out').append(div);
+    }
+    window.testResults = results;
+  });
+</script>

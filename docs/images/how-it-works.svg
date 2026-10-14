@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="432" viewBox="0 0 1280 432" role="img" aria-label="How Inkline works: write normally, every edit is logged on your device, then share a timelapse video or history file">
+<rect width="1280" height="432" rx="28" fill="#f5f4f0"/>
+<rect x="64" y="56" width="352" height="320" rx="18" fill="#ffffff" stroke="#e4e2dc"/>
+<circle cx="110" cy="104" r="18" fill="#e3f1ea"/>
+<text x="110" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#146448" text-anchor="middle" >1</text>
+<text x="92" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#1b1b19" text-anchor="start" >Write like you normally do</text>
+<text x="92" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5f5e57" text-anchor="start" >Type in Google Docs, or on any site</text>
+<text x="92" y="216" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5f5e57" text-anchor="start" >you switch on. Nothing to start.</text>
+<rect x="92" y="250" width="296" height="96" rx="12" fill="#faf9f6" stroke="#e4e2dc"/>
+<rect x="112" y="269" width="220" height="8" rx="4" fill="#c9c7bf" opacity="0.9"/>
+<rect x="112" y="291" width="250" height="8" rx="4" fill="#c9c7bf" opacity="0.75"/>
+<rect x="112" y="313" width="180" height="8" rx="4" fill="#c9c7bf" opacity="0.6000000000000001"/>
+<rect x="296" y="309" width="2" height="18" rx="1" fill="#1a7f5a"/>
+<path d="M434,206 l8,10 l-8,10" fill="none" stroke="#8a897f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="464" y="56" width="352" height="320" rx="18" fill="#ffffff" stroke="#e4e2dc"/>
+<circle cx="510" cy="104" r="18" fill="#e3f1ea"/>
+<text x="510" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#146448" text-anchor="middle" >2</text>
+<text x="492" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#1b1b19" text-anchor="start" >Every edit is logged</text>
+<text x="492" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5f5e57" text-anchor="start" >Inserts, deletes and pastes, with</text>
+<text x="492" y="216" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5f5e57" text-anchor="start" >timestamps. Text only, on device.</text>
+<rect x="492" y="250" width="296" height="96" rx="12" fill="#faf9f6" stroke="#e4e2dc"/>
+<text x="510" y="280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#1a7f5a" text-anchor="start" >+</text>
+<text x="530" y="280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#1b1b19" text-anchor="start" >insert</text>
+<text x="598" y="280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#5f5e57" text-anchor="start" >"because"</text>
+<text x="770" y="280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#8a897f" text-anchor="end" >0:05.2</text>
+<text x="510" y="304" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#c8382a" text-anchor="start" >−</text>
+<text x="530" y="304" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#1b1b19" text-anchor="start" >delete</text>
+<text x="598" y="304" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#5f5e57" text-anchor="start" >4 chars</text>
+<text x="770" y="304" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#8a897f" text-anchor="end" >0:06.9</text>
+<text x="510" y="328" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#1b1b19" text-anchor="start" >□</text>
+<text x="530" y="328" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#1b1b19" text-anchor="start" >paste</text>
+<text x="598" y="328" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#5f5e57" text-anchor="start" >112 chars</text>
+<text x="770" y="328" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#8a897f" text-anchor="end" >0:09.1</text>
+<path d="M834,206 l8,10 l-8,10" fill="none" stroke="#8a897f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="864" y="56" width="352" height="320" rx="18" fill="#ffffff" stroke="#e4e2dc"/>
+<circle cx="910" cy="104" r="18" fill="#e3f1ea"/>
+<text x="910" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#146448" text-anchor="middle" >3</text>
+<text x="892" y="164" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#1b1b19" text-anchor="start" >Share the timelapse</text>
+<text x="892" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5f5e57" text-anchor="start" >Export a video for your teacher,</text>
+<text x="892" y="216" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#5f5e57" text-anchor="start" >or the full history as a file.</text>
+<rect x="892" y="250" width="296" height="96" rx="12" fill="#faf9f6" stroke="#e4e2dc"/>
+<rect x="904" y="262" width="128" height="72" rx="8" fill="#1b1b19"/>
+<rect x="916" y="276" width="84" height="5" rx="2.5" fill="#ffffff" opacity="0.25"/>
+<rect x="916" y="288" width="100" height="5" rx="2.5" fill="#ffffff" opacity="0.25"/>
+<rect x="916" y="300" width="62" height="5" rx="2.5" fill="#ffffff" opacity="0.25"/>
+<circle cx="968" cy="298" r="15" fill="#1a7f5a"/>
+<path d="M963,290 L976,298 L963,306 Z" fill="#ffffff"/>
+<rect x="1046" y="270" width="128" height="26" rx="13" fill="#ffffff" stroke="#e4e2dc"/>
+<text x="1110" y="288" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="500" fill="#1b1b19" text-anchor="middle" >essay.mp4</text>
+<rect x="1046" y="304" width="128" height="26" rx="13" fill="#ffffff" stroke="#e4e2dc"/>
+<text x="1110" y="322" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="500" fill="#1b1b19" text-anchor="middle" >essay.inkline</text>
+</svg>

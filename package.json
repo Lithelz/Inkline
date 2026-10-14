@@ -1,0 +1,8 @@
+{
+  "name": "inkline",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Writing timelapse recorder (Manifest V3 extension)",
+  "scripts": { "test": "node tests/run.mjs" }
+}

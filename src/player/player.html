@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Inkline</title>
+    <link rel="icon" href="../../icons/32.png" />
+    <link rel="stylesheet" href="../shared/theme.css" />
+    <link rel="stylesheet" href="player.css" />
+  </head>
+  <body>
+    <aside>
+      <div class="side-head">
+        <div class="brand">Inkline</div>
+        <button class="btn" id="import">Import</button>
+        <input type="file" id="import-file" accept=".inkline" hidden />
+      </div>
+      <ul id="list"></ul>
+      <p id="list-empty" class="muted" hidden>
+        No recordings yet. Write in a Google Doc, or turn on a site from the Inkline toolbar button.
+      </p>
+    </aside>
+
+    <main>
+      <div id="empty" class="empty muted">Select a recording to play it back.</div>
+
+      <div id="view" hidden>
+        <header class="head">
+          <div class="grow">
+            <h1 id="title"></h1>
+            <div id="sub" class="muted"></div>
+          </div>
+          <button class="btn primary" id="video">Export video</button>
+          <button class="btn" id="export">Export file</button>
+          <button class="btn danger" id="delete">Delete</button>
+        </header>
+
+        <section class="stats" id="stats"></section>
+
+        <section class="stage" id="stage">
+          <div class="paper" id="text"></div>
+        </section>
+
+        <section class="controls">
+          <button class="play" id="play" aria-label="Play">
+            <svg class="i-play" viewBox="0 0 16 16" width="16" height="16"><path d="M4 2.5v11l9.5-5.5z" fill="currentColor" /></svg>
+            <svg class="i-pause" viewBox="0 0 16 16" width="16" height="16"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor" /></svg>
+          </button>
+          <div class="scrub">
+            <input type="range" id="scrub" min="0" max="1000" value="0" aria-label="Position" />
+            <div class="scrub-meta">
+              <span id="time">0:00 / 0:00</span>
+              <span id="session" class="muted"></span>
+            </div>
+          </div>
+          <label class="speed">
+            <span>Speed <b id="speed-label">8×</b></span>
+            <input type="range" id="speed" min="1" max="50" value="8" />
+          </label>
+          <label class="check">
+            <input type="checkbox" id="skip-idle" checked />
+            Skip idle
+          </label>
+        </section>
+      </div>
+    </main>
+
+    <dialog id="confirm">
+      <h2>Delete this recording?</h2>
+      <p class="muted" id="confirm-text"></p>
+      <div class="dialog-actions">
+        <button class="btn" id="confirm-no">Cancel</button>
+        <button class="btn danger solid" id="confirm-yes">Delete</button>
+      </div>
+    </dialog>
+    <div id="toast" class="toast" hidden></div>
+
+    <script src="../shared/ops.js"></script>
+    <script src="../shared/timeline.js"></script>
+    <script src="../shared/codec.js"></script>
+    <script src="../shared/store.js"></script>
+    <script src="../shared/format.js"></script>
+    <script src="player.js"></script>
+  </body>
+</html>
